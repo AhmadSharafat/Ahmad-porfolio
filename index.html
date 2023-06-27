@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ahmad-Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville&family=Poppins:wght@400;700&family=Roboto:wght@700&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 75px;
+        background-color: rgb(18, 18, 32);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      ul li {
+        list-style: none;
+        margin: 0 20px;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      .firstsection {
+        display: flex;
+        justify-content: space-around;
+        margin: 50px 0;
+        align-items: center;
+      }
+      .leftsection {
+        width: 30%;
+        margin: 30px 0;
+
+        font-size: 2.3rem;
+      }
+      .rightsection {
+        width: 30%;
+      }
+      .rightsection img {
+        width: 100%;
+        margin: 10%;
+      }
+      .purple {
+        color: purple;
+      }
+      ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(153, 153, 226);
+        font-size: 1.03rem;
+      }
+      #element {
+        color: blueviolet;
+      }
+      .secondsection {
+        margin: auto;
+        max-width: 80vw;
+      }
+      main hr {
+        border: 0;
+        background: rgb(38, 3, 70);
+        height: 3px;
+        margin: 50px 100px;
+      }
+      .secondsection {
+        font-size: 1.02rem;
+        height: 80vh;
+      }
+      .text-grey {
+        color: grey;
+      }
+      .secondsection > div {
+        background: white;
+        height: 2px;
+        margin: 50px 0;
+        display: flex;
+        width: 63rem;
+      }
+      .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 100px;
+      }
+      .image-top {
+        width: 23px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+      }
+      .vertical-title {
+        position: relative;
+        top: 75px;
+        width: 150px;
+        font-size: 14px;
+      }
+      .vertical-desc {
+        position: relative;
+        top: 80px;
+        color: grey;
+        width: 150px;
+        font-size: 9px;
+        margin-top: 0px;
+      }
+      #backend {
+        width: 150px;
+        top: 70px;
+      }
+      .footer {
+        background-color: rgb(9, 10, 61);
+        height: 140px;
+        display: flex;
+        justify-content: space-around;
+        font-size: 14.5px;
+        color: lightyellow;
+      }
+      .footer-first {
+        margin-top: 20px;
+      }
+
+      .footer-second {
+        margin-top: 20px;
+        list-style: none;
+      }
+      .footer-third {
+        list-style: none;
+        margin-top: 20px;
+      }
+      .footer-fourth {
+        list-style: none;
+        margin: 20px;
+      }
+      .footer-rights{
+        text-align: center;
+        background-color:rgb(9, 10, 61) ;
+        margin-bottom: 2px;
+        color: darkgray;
+        padding: 0;
+      }
+      .download{
+        font-size: 19px;
+        padding: 9px;
+        border: solid black;
+        background-color: #1e3d80;
+        color: white;
+        border-radius: 14px;}
+        .git{
+          font-size: 19px;
+        padding: 9px;
+         border: solid black;
+        background-color: #1e3d80;
+        color: white;
+        border-radius: 14px;
+}
+
+
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Ahmad's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          <p>
+            Hey! My name is <span class="purple"> Ahmad</span> and i am a
+            developer.
+          </p>
+          <!--<div><p>i am frontend developer</p></div>-->
+          <span id="element"></span>
+         <div><button class="download">Download Resume </button>
+          <button class="git"> Vist Gitub</button></div>  
+        </div>
+        
+        <div class="rightsection">
+          <img src="./images/dev.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondsection">
+        <span class="text-grey">What i have done so far:-</span>
+        <h1>Work Exprience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="./images/html.png" alt="" />
+            <div class="vertical-title">HTML Developer (2010-2012)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+              voluptate dolorem, alias voluptatum quidem dolor non quod vitae
+              iste inventore?
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="./images/nod.png" alt="" />
+            <div class="vertical-title">Node.js Developer (2012-2014)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+              voluptate dolorem, alias voluptatum quidem dolor non quod vitae
+              iste inventore?
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="./images/developer.png" alt="" />
+            <div class="vertical-title">Graphic Designer (2014-2016)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+              voluptate dolorem, alias voluptatum quidem dolor non quod vitae
+              iste inventore?
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="./images/js.png" alt="" />
+            <div class="vertical-title">Javascript (2016-2018)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+              voluptate dolorem, alias voluptatum quidem dolor non quod vitae
+              iste inventore?
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="./images/back.png" alt="" />
+            <div class="vertical-title" id="backend">
+              Backend Developer (2018-2020)
+            </div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+              voluptate dolorem, alias voluptatum quidem dolor non quod vitae
+              iste inventore?
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-first">Ahmad's Portfolio</div>
+        <div class="footer-second">
+          <ul>
+            <li>Home</li>
+            <li>Services</li>
+            <li>Projects</li>
+            <li>Contact me</li>
+          </ul>
+        </div>
+        <div class="footer-third">
+          <li>Home</li>
+          <li>Services</li>
+          <li>Projects</li>
+          <li>Contact me</li>
+        </div>
+        <div class="footer-fourth">
+          <li>Home</li>
+          <li>Services</li>
+          <li>Projects</li>
+          <li>Contact me</li>
+        </div>
+    </footer>
+    <footer   class="footer-rights">
+      <div> Copyrights&#169;Ahmadportfolio.com|All rights reserved </div>
+</footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "App Developer", "Graphic Designer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
